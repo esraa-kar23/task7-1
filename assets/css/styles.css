@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#integers, #subject, #Grads {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#integers div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#integers div input, .character input, .multiplication input, .even-numbers input,
+#subject input,
+#Grads input
+{
+    width: 300px;
+    height: 30px;
+}
+body {
+    background-color: rgb(145, 130, 130);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button {
+    padding: 8px;
+}
+.character, .multiplication, .even-numbers {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
